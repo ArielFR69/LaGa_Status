@@ -1,0 +1,163 @@
+/* Header */
+header {
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px;
+  }
+  
+  .navbar-brand {
+    margin-right: 40px;
+  }
+  
+  .navbar-logo {
+    display: inline-block;
+    width: 87px;
+    height: 44px;
+    background: url(/image/3\ 6.png);
+    background-size: cover;
+  }
+  
+  .navbar-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .navbar-item {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #525560;
+    text-decoration: none;
+  }
+  
+  .navbar-link:hover {
+    color: #000000;
+  }
+  
+  .navbar-button {
+    width: 109px;
+    height: 43px;
+    background-color: #1d2130;
+  }
+  
+  .navbar-button-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  /* End Navbar*/
+
+  /* Pop Up Lacak Status */
+.container {
+    position: absolute;
+    width: 640px;
+    height: 435.66px;
+    left: 416px;
+    top: 326.94px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+
+  .lacak-status {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #1d2130;
+    margin-bottom: 20px;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+
+  .form-group label {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1d2130;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-control {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #1d2130;
+    border: 1px solid #1d2130;
+    border-radius: 4px;
+  }
+  
+  .form-control::placeholder {
+    color: #9b9b9b;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .kirim-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    background: #0401aa;
+    backdrop-filter: blur(40px);
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .BG {
+    position: absolute;
+    width: 1500px;
+    height: 957;
+    left: 0px;
+    top: 67px;
+    background: #f5f1e5;
+    border-radius: 0px;
+  }
